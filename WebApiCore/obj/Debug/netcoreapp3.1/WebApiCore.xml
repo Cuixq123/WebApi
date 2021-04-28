@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApiCore</name>
+    </assembly>
+    <members>
+        <member name="T:WebApiCore.Controllers.Version1.ProductController">
+            <summary>
+            产品管理视图接口
+            </summary>
+        </member>
+        <member name="T:WebApiCore.Controllers.Version1.ProjectController">
+            <summary>
+            项目管理视图接口
+            </summary>
+        </member>
+        <member name="M:WebApiCore.Controllers.Version1.ProjectController.ProjectgetId(System.Int32)">
+            <summary>
+            获取项目的id
+            </summary>
+            <param name="id">主键参数</param>
+            <returns></returns>
+        </member>
+        <member name="T:WebApiCore.Controllers.Version1.ResourceController">
+            <summary>
+            资源管理视图接口
+            </summary>
+        </member>
+        <member name="T:WebApiCore.Controllers.WeatherForecastController">
+            <summary>
+            这是一个测试的控制器
+            </summary>
+        </member>
+        <member name="M:WebApiCore.Controllers.WeatherForecastController.ProjectgetId(System.Int32)">
+            <summary>
+            获取项目的id
+            </summary>
+            <param name="id">主键参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiCore.Controllers.WeatherForecastController.ProjectgetIds(System.Int32)">
+            <summary>
+            获取项目的id
+            </summary>
+            <param name="id">主键参数</param>
+            <returns></returns>
+        </member>
+        <member name="T:WebApiCore.SetupServices.CustomApiVersion">
+            <summary>
+            多版本控制
+            </summary>
+        </member>
+        <member name="F:WebApiCore.SetupServices.CustomApiVersion.ApiVersions.v1">
+            <summary>
+            v1版本
+            </summary>
+        </member>
+        <member name="F:WebApiCore.SetupServices.CustomApiVersion.ApiVersions.v2">
+            <summary>
+            v2版本
+            </summary>
+        </member>
+        <member name="F:WebApiCore.SetupServices.CustomApiVersion.ApiVersions.v3">
+            <summary>
+            v3版本
+            </summary>
+        </member>
+    </members>
+</doc>
